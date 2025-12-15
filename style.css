@@ -19,6 +19,24 @@ body {
 .hero p {
   color: #aaa;
 }
+/* Navegació */
+.nav {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+}
+
+.nav a {
+  color: #eaeaea;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
 
 section {
   max-width: 900px;
@@ -35,9 +53,12 @@ section {
 
 .project-card img,
 .project-card video {
-  width: 100%;
+  width: 50%;
   border-radius: 8px;
   margin-bottom: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 audio {
@@ -63,16 +84,19 @@ audio {
   position: relative;
   overflow: hidden;
   border-radius: 10px;
-  margin-bottom: 20px;
 }
 
 .carousel-track {
   display: flex;
+  height: 50%;
+  width: 50%;
   transition: transform 0.4s ease-in-out;
 }
 
 .carousel-track img {
   width: 100%;
+  height: 100%;
+  object-fit: cover;
   flex-shrink: 0;
   border-radius: 10px;
 }
@@ -85,10 +109,11 @@ audio {
   background: rgba(0, 0, 0, 0.6);
   color: white;
   border: none;
-  font-size: 2rem;
-  padding: 5px 12px;
+  font-size: 1.5rem;
+  padding: 3px 8px;
   cursor: pointer;
   border-radius: 6px;
+  z-index: 10;
 }
 
 .carousel-btn.prev {
@@ -103,6 +128,49 @@ audio {
   background: rgba(0, 0, 0, 0.85);
 }
 
+
+/* Environment Artist Section */
+.environment {
+  background: #121212;
+}
+
+.env-intro {
+  max-width: 700px;
+  margin-bottom: 30px;
+  color: #ccc;
+}
+
+.env-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.env-card {
+  background: #1b1b1b;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.env-card h3 {
+  margin-top: 0;
+}
+
+.env-card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.env-card li {
+  background: #2a2a2a;
+  padding: 6px 10px;
+  border-radius: 6px;
+  margin-bottom: 6px;
+  font-size: 0.9rem;
+}
+
+/* Footer */
 footer {
   text-align: center;
   padding: 20px;
