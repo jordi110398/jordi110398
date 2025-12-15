@@ -44,6 +44,16 @@ section {
   padding: 40px 20px;
 }
 
+.about img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 20px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
 .project-card {
   background: #1c1c1c;
   border-radius: 12px;
