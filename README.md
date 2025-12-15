@@ -1,4 +1,4 @@
-## Hi there 👋
+## Game Developer · Level Design · Environment Artist · Audio and Music Producer 👋
 
 <!--
 **jordi110398/jordi110398** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
